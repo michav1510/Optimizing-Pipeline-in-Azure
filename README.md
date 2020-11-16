@@ -40,6 +40,8 @@ The features of the data used are below :
 
 11)duration : The day of the current contact of the marketing banking institution with the potential customer. It is a numerical value.
 
+12)campaign : 
+
 
 
 **What are the benefits of the parameter sampler you chose?**
