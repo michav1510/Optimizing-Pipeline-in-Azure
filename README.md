@@ -18,7 +18,7 @@ accept to make a term deposit with the bank.
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 The features of the data used are below : 
 1)age : The age of the customer.
-2)job : 
+2)job : The job the customer do. It is a categorical field. The values are "technician", "unknown", "blue-collar", "admin.", "housemaid", "retired", "services", "entrepreneur", "management", "self-employed", "student", "unemployed".
 
 **What are the benefits of the parameter sampler you chose?**
 
