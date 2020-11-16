@@ -16,6 +16,9 @@ accept to make a term deposit with the bank.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+The features of the data used are below : 
+1)age : The age of the customer.
+2)job : 
 
 **What are the benefits of the parameter sampler you chose?**
 
