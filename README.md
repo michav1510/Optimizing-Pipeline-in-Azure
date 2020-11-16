@@ -17,10 +17,20 @@ accept to make a term deposit with the bank.
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 The features of the data used are below : 
+
 1)age : The age of the potential customer.
+
 2)job : The job the potential customer does. It is a categorical field. The possible values are "technician", "unknown", "blue-collar", "admin.", "housemaid", "retired", "services", "entrepreneur", "management", "self-employed", "student", "unemployed".
+
 3)marital : The marital status of the potential customer. It is a categorical field. The possible values are "married", "single", "unknown", "divorced".
+
 4)education : The education level of the potential customer. It is a categorical field. The possible values are "high.school", "unknown", "basic.9y", "basic.6y", "basic.4y", "illiterate", "professional.course", "university.degree".
+
+5)default : If the potential customer had defaulted. It is a categorical field. The possible values are "yes", "no", "unknown".
+
+6)housing : Is the potential customer has taken housing loan? It is a categorical field. The possible values are "yes", "no", "unknown".
+
+
 
 
 **What are the benefits of the parameter sampler you chose?**
