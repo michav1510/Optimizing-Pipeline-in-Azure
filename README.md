@@ -42,6 +42,8 @@ The features of the data used are below :
 
 12)campaign : 
 
+The data used for predictions are from : https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv .
+First of all the data are cleaned with the ```clean_data``` in ```train.py```. The rows with missing values are dropped and categorical fields are converted to numerical fields.
 
 
 **What are the benefits of the parameter sampler you chose?**
