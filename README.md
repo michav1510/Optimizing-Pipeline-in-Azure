@@ -28,7 +28,9 @@ The features of the data used are below :
 
 5)default : If the potential customer had defaulted. It is a categorical field. The possible values are "yes", "no", "unknown".
 
-6)housing : Is the potential customer has taken housing loan? It is a categorical field. The possible values are "yes", "no", "unknown".
+6)housing : If the potential customer has taken housing loan. It is a categorical field. The possible values are "yes", "no", "unknown".
+
+7)loan : If the potential customer has a personal loan. It is a categorical field. The possible values are "yes", "no", "unknown".
 
 
 
