@@ -20,7 +20,8 @@ The features of the data used are below :
 1)age : The age of the potential customer.
 2)job : The job the potential customer does. It is a categorical field. The possible values are "technician", "unknown", "blue-collar", "admin.", "housemaid", "retired", "services", "entrepreneur", "management", "self-employed", "student", "unemployed".
 3)marital : The marital status of the potential customer. It is a categorical field. The possible values are "married", "single", "unknown", "divorced".
-4)education : The education level of the potential customer. It is a categorical field. The possible values are 
+4)education : The education level of the potential customer. It is a categorical field. The possible values are "high.school", "unknown", "basic.9y", "basic.6y", "basic.4y", "illiterate", "professional.course", "university.degree".
+
 
 **What are the benefits of the parameter sampler you chose?**
 
