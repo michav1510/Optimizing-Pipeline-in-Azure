@@ -36,8 +36,9 @@ The features of the data used are below :
 
 9)month : The month occurs the current contact of the marketing banking institution with the potential customer. It is a categorical field. The possible values are "jan", "feb", ... "dec".
 
-10)day_of_week : 
+10)day_of_week : The day of the current contact of the marketing banking institution with the potential customer. It is a categorical field. The possible values are "mon", "tue", "wed", "thu", "fri".
 
+11)duration : The day of the current contact of the marketing banking institution with the potential customer. It is a numerical value.
 
 
 
