@@ -32,7 +32,11 @@ The features of the data used are below :
 
 7)loan : If the potential customer has a personal loan. It is a categorical field. The possible values are "yes", "no", "unknown".
 
-8)contact : The type of contact the 
+8)contact : The type of the current contact of the marketing banking institution with the potential customer. It is a categorical field. The possible values are "cellular", "telephone".
+
+9)month : The month occurs the current contact of the marketing banking institution with the potential customer. It is a categorical field. The possible values are "jan", "feb", ... "dec".
+
+10)
 
 
 
