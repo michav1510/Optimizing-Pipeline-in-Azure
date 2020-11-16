@@ -32,6 +32,8 @@ The features of the data used are below :
 
 7)loan : If the potential customer has a personal loan. It is a categorical field. The possible values are "yes", "no", "unknown".
 
+8)contact : The type of contact the 
+
 
 
 
