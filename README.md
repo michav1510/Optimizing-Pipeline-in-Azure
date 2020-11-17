@@ -47,11 +47,17 @@ First of all the data are cleaned with the ```clean_data``` in ```train.py```. T
 
 Tha algorithm used for the training is Logistic Regression. The two hyperparameters of the Logistic Regression are tuned with the hyper drive to find the model with the best accuracy on the test set.  The two hyperparameters are the following:
 
-C: The inverse of the reqularization strength. The smaller the number the stronger the regularization.
-max_iter: Maximum number of iterations to converge. 
+```C```: The inverse of the reqularization strength. The smaller the number the stronger the regularization.
+```max_iter```: Maximum number of iterations to converge. 
 
 
-**What are the benefits of the parameter sampler you chose?**
+**Benefits of the parameter sampler **
+
+I chose the ```RandomParameterSampling```, the hyperparameters are randomly selected from the search space. The search space for the two hyperaparameters is the following:
+
+```'--C' : choice(0.1,1,10,100,500),
+   '--max_iter': choice(50,100,300)
+```
 
 **What are the benefits of the early stopping policy you chose?**
 
