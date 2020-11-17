@@ -45,7 +45,10 @@ The features of the data used are below :
 The data used for predictions are from : https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv .
 First of all the data are cleaned with the ```clean_data``` in ```train.py```. The rows with missing values are dropped and categorical fields are converted to numerical fields. The data are splitted to train and test set with ratio . 
 
-Tha algorithm used for the training is Logistic Regression
+Tha algorithm used for the training is Logistic Regression. The two hyperparameters of the Logistic Regression are tuned with the hyper drive to find the model with the best accuracy on the test set.  The two hyperparameters are the following:
+
+C: The inverse of the reqularization strength. The smaller the number the stronger the regularization.
+max_iter: Maximum number of iterations to converge. 
 
 
 **What are the benefits of the parameter sampler you chose?**
