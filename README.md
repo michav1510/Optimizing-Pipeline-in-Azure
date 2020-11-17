@@ -92,7 +92,7 @@ In order to setup an AutoML train you have to config some parameters :
 
 * ```primary_metric = 'accuracy'``` : The metric that Automated Machine Learning will optimize for model selection. We have set the 'accuracy'.
 
-* 
+* ```enable_early_stopping = True``` : Whether to enable early termination if the score is not improving in the short term. The default is False.
 
 
 ## Pipeline comparison
