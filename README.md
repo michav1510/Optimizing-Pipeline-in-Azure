@@ -77,12 +77,22 @@ I set ```evaluation_interval=2, slack_factor=0.1```.
 
 In AutoML many pipelines produced simultaneously that run different algorithms and parameters in an automated way. 
 In order to setup an AutoML train you have to config some parameters : 
-* ```experiment_timeout_minutes=30``` : 
+
+* ```experiment_timeout_minutes=30``` : It has been set that way and we can't change it for the purpose of this assignment.
+
 * ```task='classification'``` : We have a classification task to do, we seek to predict whether or not the potential client would accept to make a term deposit with the bank.
 
 * ```compute_target ``` : The compute target with specific ```vm_size``` and ```max_nodes```.
 
-* ```training_data```
+* ```training_data``` : The data on which the algorithm will be trained.
+
+* ```label_column_name``` : The name of the column that contains the labels of the train data.
+
+* ```n_cross_validations=3 ``` : It is how many cross validations to perform when user validation data is not specified. 
+
+* ```primary_metric = 'accuracy'``` : The metric that Automated Machine Learning will optimize for model selection. We have set the 'accuracy'.
+
+* 
 
 
 ## Pipeline comparison
