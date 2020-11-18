@@ -90,10 +90,9 @@ AutoML shows you also some usefull metric outputs as you can see below :
 
 ## Future work
 
-* In order to improve the AutoML I would try to increase the ```n_cross_validations```(for example to 5), change the ```experiment_timeout_minutes``` to train longer. 
-I would also change the ```primary_metric``` to  ```AUC_weighted``` because the data are imbalanced.
+* In order to improve the AutoML I would try to increase the ```n_cross_validations```(for example to 5), change the ```experiment_timeout_minutes``` to train longer. I would also change the ```primary_metric``` to  ```AUC_weighted``` because the data are not balanced.
 
-* In order to improve the Hyperdrive pipeline I would change the early stopping policy to a more conservative policy like the ```MedianStoppingPolicy```, and change the ```RandomParameterSampling``` to ```GridParameterSampling``` which is more exhaustive computationally.
+* In order to improve the Hyperdrive pipeline I would change the early stopping policy to a more conservative policy like the ```MedianStoppingPolicy```, and change the ```RandomParameterSampling``` to ```GridParameterSampling``` which is more exhaustive computationally. These two changes would make more slow the pipeline because the policy would stop less models and the new sampler would check more parameters.
 
 ## Proof of cluster clean up
 
