@@ -44,7 +44,7 @@ where the choice define discrete space over the values. The benefits of the ```R
 **Benefits of the early stopping policy**
 
 I chose the ```BanditPolicy``` which is an "aggressive" early stopping policy with the meaning that cuts more runs than a conservative one like the ```MedianStoppingPolicy```, so it saves computational time. There are three configuration parameters ```slack_factor, evaluation_interval(optional), delay_evaluation(optional)```. 
-* ```slack_factor/slack_amount``` : (factor)The slack allowed with respect to the best performing training run.(amount) specifies the allowable slack as an absolute amount, instead of a ratio.
+* ```slack_factor/slack_amount``` : (factor)The slack allowed with respect to the best performing training run.(amount) Specifies the allowable slack as an absolute amount, instead of a ratio.
 
 * ```evaluation_interval``` : (optional) The frequency for applying the policy.
 
