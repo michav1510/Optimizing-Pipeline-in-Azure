@@ -99,9 +99,10 @@ AutoML shows you also some usefull metric outputs as you can see below :
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 * In order to improve the AutoML I would try to increase the ```n_cross_validations```(for example to 5), change the ```experiment_timeout_minutes``` to train longer. 
+I would also change the ```primary_metric``` to  ```AUC_weighted``` because the data are imbalanced.
 
 * In order to improve the Hyperdrive pipeline I would change the early stopping policy to a more conservative policy like the ```MedianStoppingPolicy```, and change the ```RandomParameterSampling``` to ```GridParameterSampling``` which is more exhaustive computationally.
 
 ## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
+
+![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/images/ComputeCluster2.png?raw=true)
