@@ -75,13 +75,19 @@ In order to setup an AutoML train you have to config some parameters :
 
 * ```enable_early_stopping = True``` : Whether to enable early termination if the score is not improving in the short term. 
 
+The best model was the one with 0.91591% accuracy and the algorithm used was VotingEnsemble. In the below image you can see the top models, the algorithms used and their performance on the primary metric : 
+
+![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/images/AutoML1_4.png?raw=true)
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
-As we can see there are no significant differences in accuracy. Both models trained with the same dataset and with early stopping policy. The AutoML makes an easy way to try different algorithms that would be difficult with the hyperdrive because you have to make changes in the training script to change the algorithm. The AutoML moreover shows you the importance of each feature for the prediction (0 or 1), as you can see below : 
+As we can see there are no significant differences in accuracy. Both models trained with the same dataset and with early stopping policy. The AutoML makes an easy way to try different algorithms that would be difficult with the hyperdrive because you have to make changes in the training script to change the algorithm. The AutoML moreover shows you the importance of each feature for the prediction (0 or 1), as you can see below  in our features: 
 
-![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/AutoML1_2.png?raw=true)
+![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/images/AutoML1_2.png?raw=true)
+
+The hyperdrive could used in a more focused way to improve the performance of the primary metric, for example if you know the algorithm that fits well to your problem. Then you can write the script using the specific algorithm and then running it using hyperdrive.
+The AutoML could used used when you want to find the algorithm that fits well on your problem
 
 
 ## Future work
