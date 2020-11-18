@@ -6,7 +6,6 @@ In this project, we build and optimize an Azure ML pipeline using the Python SDK
 This model is then compared to an Azure AutoML run.
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
 
 This dataset contains data about bank marketing campaigns based on phone calls to potential clients. The campaing has as target to
 convince the potential clients to make a term deposit with the bank. We seek to predict whether or not the potential client would 
@@ -20,9 +19,8 @@ The AutoML pipeline scored 0.91591% accuracy and the algorithm used for this is 
 
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
-The data used for predictions are from : https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv .
+The data used are from : https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv .
 First of all the data are cleaned with the ```clean_data``` in ```train.py```. The rows with missing values are dropped and categorical fields are converted to numerical fields. The data are splitted to train and test set with ratio 0.85:0.15. 
 
 Tha algorithm used for the training is Logistic Regression. The two hyperparameters of the Logistic Regression are tuned with the hyperdrive to find the model with the best accuracy on the test set.  The two hyperparameters are the following:
@@ -93,10 +91,7 @@ AutoML shows you also some usefull metric outputs as you can see below :
 ![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/images/AutoML1_3.png?raw=true)
 
 
-
-
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 * In order to improve the AutoML I would try to increase the ```n_cross_validations```(for example to 5), change the ```experiment_timeout_minutes``` to train longer. 
 I would also change the ```primary_metric``` to  ```AUC_weighted``` because the data are imbalanced.
