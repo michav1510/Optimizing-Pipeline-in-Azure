@@ -11,9 +11,6 @@ This dataset contains data about bank marketing campaigns based on phone calls t
 convince the potential clients to make a term deposit with the bank. We seek to predict whether or not the potential client would 
 accept to make a term deposit with the bank.
 
-
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
-
 The best performing model was Scikit-learn pipeline, that uses logistic regression with hyperdrive to find the best hyperparameters. Scored 0.91685% accuracy.
 The AutoML pipeline scored 0.91591% accuracy and the algorithm used for this is VotingEnsemble.
 
