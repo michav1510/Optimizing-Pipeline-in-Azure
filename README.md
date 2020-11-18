@@ -81,7 +81,7 @@ In order to setup an AutoML train you have to config some parameters :
 
 As we can see there are no significant differences in accuracy. Both models trained with the same dataset and with early stopping policy. The AutoML makes an easy way to try different algorithms that would be difficult with the hyperdrive because you have to make changes in the training script to change the algorithm. The AutoML moreover shows you the importance of each feature for the prediction (0 or 1), as you can see below : 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/AutoML1_2.png?raw=true)
 
 
 ## Future work
