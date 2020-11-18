@@ -79,7 +79,10 @@ In order to setup an AutoML train you have to config some parameters :
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
-As we can see there are no significant differences in accuracy. Both models trained with the same dataset and with early stopping policy. The AutoML makes an easy way to try different algorithms that would be difficult with the hyperdrive because you have to make changes in the training script to change the algorithm.
+As we can see there are no significant differences in accuracy. Both models trained with the same dataset and with early stopping policy. The AutoML makes an easy way to try different algorithms that would be difficult with the hyperdrive because you have to make changes in the training script to change the algorithm. The AutoML moreover shows you the importance of each feature for the prediction (0 or 1), as you can see below : 
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
