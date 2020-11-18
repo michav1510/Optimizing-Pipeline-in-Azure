@@ -81,11 +81,11 @@ As we can see there are no significant differences in accuracy. Both models trai
 
 The AutoML moreover shows you the importance of each feature for the prediction (0 or 1), as you can see below  in our features: 
 
-![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/images/AutoML1_2.png?raw=true)
+![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/main/images/AutoML1_2.png?raw=true)
 
 AutoML shows you also some usefull metric outputs as you can see below : 
 
-![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/images/AutoML1_3.png?raw=true)
+![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/main/images/AutoML1_3.png?raw=true)
 
 
 ## Future work
@@ -97,4 +97,4 @@ I would also change the ```primary_metric``` to  ```AUC_weighted``` because the 
 
 ## Proof of cluster clean up
 
-![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/test/images/ComputeCluster2.png?raw=true)
+![alt text](https://github.com/michav1510/Optimizing-Pipeline-in-Azure/blob/main/images/ComputeCluster2.png?raw=true)
