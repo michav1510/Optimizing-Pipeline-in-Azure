@@ -36,7 +36,7 @@ Tha algorithm used for the training is Logistic Regression. The two hyperparamet
 I chose the ```RandomParameterSampling```, the hyperparameters are randomly selected from the search space. The search space for the two hyperaparameters is the following:
 
 ```
-   '--C' : choice(0.1,1,10,100,500),
+   '--C' : choice(0.001,0.01,0.1,1,10,20,50,100,200,500,1000),
    '--max_iter': choice(50,100,300)
 ```
 where the choice define discrete space over the values. The benefits of the ```RandomParameterSampling```, is that it is more fast than for example the ```GridParameterSampling``` where all the possible values from the search space are used, and it supports early termination of low-performance runs.
