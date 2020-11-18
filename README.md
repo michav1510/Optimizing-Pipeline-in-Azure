@@ -28,6 +28,7 @@ First of all the data are cleaned with the ```clean_data``` in ```train.py```. T
 Tha algorithm used for the training is Logistic Regression. The two hyperparameters of the Logistic Regression are tuned with the hyperdrive to find the model with the best accuracy on the test set.  The two hyperparameters are the following:
 
 ```C```: The inverse of the reqularization strength. The smaller the number the stronger the regularization.
+
 ```max_iter```: Maximum number of iterations to converge. 
 
 
