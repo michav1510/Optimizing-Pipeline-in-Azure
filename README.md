@@ -73,7 +73,7 @@ In order to setup an AutoML train you have to config some parameters :
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
-The first, Scikit-learn pipeline, that uses logistic regression with hyperdrive to find the best hyperparameters scored 0.9168521141007485% accuracy.
+The first, Scikit-learn pipeline, that uses logistic regression with hyperdrive to find the best hyperparameters scored 0.91685% accuracy.
 The AutoML pipeline scored 0.91591% accuracy and the algorithm used for this is VotingEnsemble.
 
 As we can see there are no sifnificant differences in accuracy. Both models trained with the same dataset and with early stopping policy. 
