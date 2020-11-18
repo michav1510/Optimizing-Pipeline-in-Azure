@@ -14,7 +14,7 @@ accept to make a term deposit with the bank.
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
-The first, Scikit-learn pipeline, that uses logistic regression with hyperdrive to find the best hyperparameters scored 0.91685% accuracy.
+The best performing model was Scikit-learn pipeline, that uses logistic regression with hyperdrive to find the best hyperparameters. Scored 0.91685% accuracy.
 The AutoML pipeline scored 0.91591% accuracy and the algorithm used for this is VotingEnsemble.
 
 
