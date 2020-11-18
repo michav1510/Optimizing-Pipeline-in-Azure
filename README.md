@@ -94,12 +94,13 @@ AutoML shows you also some usefull metric outputs as you can see below :
 
 
 
-The hyperdrive could used in a more focused way to improve the performance of the primary metric, for example if you know the algorithm that fits well to your problem. Then you can write the script using the specific algorithm and then running it using hyperdrive.
-The AutoML could used used when you want to find the algorithm that fits well on your problem
-
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
+
+* In order to improve the AutoML I would try to increase the ```n_cross_validations```(for example to 5), change the ```experiment_timeout_minutes``` to train longer. 
+
+* In order to improve the Hyperdrive pipeline I would change the early stopping policy to a more conservative policy like the ```MedianStoppingPolicy```, and change the ```RandomParameterSampling``` to ```GridParameterSampling``` which is more exhaustive computationally.
 
 ## Proof of cluster clean up
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
